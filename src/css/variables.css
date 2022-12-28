@@ -1,0 +1,20 @@
+:root {
+    --primary-color-red: hsl(0, 100%, 74%);
+    --primary-color-green: hsl(154, 59%, 51%);
+
+    --accent-color-blue: hsl(248, 32%, 49%);
+
+    --neutral-color-dark-blue: hsl(249, 10%, 26%);
+    --neutral-color-grayish-blue: hsl(246, 25%, 77%); 
+
+    --font-color: white;
+    --card-background-color: white;
+
+    --input-border-color: #dfdbdb;
+
+    --submit-border-color: #44B181;
+    --submit-hover-background-color: #77E2B4;
+    --submit-hover-border-color: #6BCCA1;
+
+    --box-shadow-color: rgba(0, 0, 0, 0.144);
+}

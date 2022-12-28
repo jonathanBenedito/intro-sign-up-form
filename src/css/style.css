@@ -1,0 +1,173 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    color: var(--font-color);
+}
+
+body, input::placeholder {
+    font-family: 'Poppins', sans-serif;
+}
+
+input {
+    border: 1px solid var(--input-border-color);
+    padding: 1.5rem 7rem 1.5rem 2rem;
+    border-radius: 0.5rem;
+    transition: 0.3s ease-in-out;
+}
+
+input[type=submit] {
+    padding: 1.5rem 0;
+}
+
+input::placeholder {
+    font-weight: 700;
+}
+
+input:focus:not(input[type=submit]) {
+    border-color: var(--accent-color-blue);
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+small {
+    font-size: 1rem;
+}
+
+main {
+    background: url('../images/bg-intro-desktop.png');
+    background-color: var(--primary-color-red);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    padding: 0 5rem;
+}
+
+/* LEARN SECTION */
+
+.learn {
+    max-width: 500px;
+}
+
+.learn h1 {
+    margin-bottom: 3rem;
+    line-height: 6rem;
+}
+
+/* LEARN SECTION */
+
+/* FORM AREA SECTION */
+
+.form-area {
+    text-align: center;
+    max-width: 450px;
+}
+
+.form-area a.try-button {
+    background-color: var(--accent-color-blue);
+    color: var(--font-color);
+    width: 100%;
+    display: block;
+    padding: 1.5rem 3rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+}
+
+.form-area a.try-button b {
+    font-weight: 600;
+}
+
+.form-area a.try-button, 
+.form-area .card {
+    box-shadow: var(--box-shadow-color) 0px 7px;
+    border-radius: 1rem;
+}
+
+.form-area .card {
+    background-color: var(--card-background-color);
+    padding: 3rem;    
+}
+
+.form-area form input {
+    width: 100%;
+}
+
+.form-area form .field {
+    margin-bottom: 2rem;
+}
+
+.form-area form .field .input-area {
+    position: relative;
+    margin-bottom: 0.5rem;
+} 
+
+.form-area form .field.invalid .input-area input {
+    border-color: var(--primary-color-red);
+} 
+
+.form-area form .field.invalid .input-area .error-icon {
+    background: url('../images/icon-error.svg') center center no-repeat;
+    background-size: contain;
+    content: '';
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(-50%, -50%);
+}
+
+.form-area form .field.invalid .input-feedback {
+    display: block;
+}
+
+.form-area form .field .input-feedback {
+    display: none;
+    color: var(--primary-color-red);
+    text-align: right;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.form-area form .submit-button {
+    background-color: var(--primary-color-green);
+    text-transform: uppercase;
+    color: var(--font-color);
+    font-weight: 600;
+    font-size: 1.4rem;
+    border-bottom: 3px solid var(--submit-border-color);
+    padding-bottom: 1.5rem;
+    padding-top: 2rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.form-area form .submit-button:hover {
+    background-color: var(--submit-hover-background-color);
+    border-bottom-color: var(--submit-hover-border-color);
+}
+
+.form-area .terms-services-warning {
+    color: var(--neutral-color-grayish-blue);
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0 2.4rem;
+    line-height: 1.8rem;
+}
+
+.form-area .terms-services-warning a {
+    color: var(--primary-color-red);
+    font-weight: 700;
+}
+
+/* FORM AREA SECTION */

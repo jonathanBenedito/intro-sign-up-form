@@ -1,0 +1,40 @@
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    main {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .learn h1 {
+        margin-bottom: 2rem;
+        line-height: 3rem;
+    }
+
+    .form-area .card {
+        padding: 2rem;
+    }
+
+    .form-area a.try-button {
+        padding: 1.5rem 5rem;
+        font-weight: 400;
+        margin-bottom: 2rem;
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 475px) {
+    main {
+        padding: 10rem 3rem;
+        gap: 5rem;
+    }
+
+    .form-area a.try-button {
+        padding: 1.5rem 5rem;
+        font-weight: 400;
+        margin-bottom: 2rem;
+        font-size: 1.6rem;
+    }
+}
