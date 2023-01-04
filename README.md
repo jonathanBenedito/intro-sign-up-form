@@ -1,5 +1,5 @@
 <h1 align="center">
-  Formulário de cadastro
+  Formulário de Cadastro
 </h1>
 <p align="center">
     É um <a href="https://jonathanbenedito.github.io/intro-sign-up-form/" target="_blank">website</a> que contém um formulário de cadastro com validação de email e campos não preenchidos. Desenvolvido para um <a href="https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1">desafio do Frontend Mentor</a>.
